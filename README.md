@@ -7,8 +7,8 @@ http://modelai.gettysburg.edu/2013/tdgammon/pa2.pdf
 http://modelai.gettysburg.edu/2013/tdgammon/pa4.pdf
 
 But the following classes have been added:
-To package player - BackPropPlayer2,Utility
-To package driver - SimulationDriver,TestStrengthDriver
+1. To package player - BackPropPlayer2,Utility
+2. To package driver - SimulationDriver,TestStrengthDriver
 
 BackPropPlayer2 : A NN player, that implements TD learning, takes parameters Lambda(TD-lambda), Alpha(NN learning-rate), trainingmode(true/false)
 Utility: Implements primarily "BoardtoVec" to change a board to a NN representation
